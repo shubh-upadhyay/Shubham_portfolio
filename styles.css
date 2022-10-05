@@ -1,0 +1,378 @@
+ body {
+    font-family: "arial", sans-serif;
+    
+}
+
+title-icon {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ 
+
+#font-primary {
+    color: #00abae;
+   
+}
+ 
+ 
+
+.title-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    
+    color: grey;
+    font-weight: 600;
+}
+
+ 
+
+h2 {
+     
+    font-size: 23px;
+    /* margin-bottom: 20px; */
+    margin-bottom: auto;
+    
+}
+.myname{
+    font-weight: 900;
+}
+
+a.font-black {
+    color: black !important;
+}
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px auto;
+    /* max-width: 400px; */
+    text-align: center;
+    /* border:1px solid grey; */
+    max-width: 100%;
+    /* border:3px solid black; */
+}
+#about .profilepic{
+    flex-basis: 50%;
+    padding:auto;
+    padding-left: auto;
+    /* padding-bottom:5%; */
+    min-width: 480px;
+    max-width: 100%;
+    /* border: 1px solid red; */
+
+}
+#about .named{
+    /* display: flex;
+    flex-wrap: wrap; */
+    flex-basis: 50%;
+    align-items: center;
+    text-align: justify;
+    
+
+    padding:5%;
+    padding-top: 1%;
+    min-width: 480px;
+    /* border: 1px solid blue; */
+    max-width: 100%;
+}
+
+
+.named h2{
+    font-size: 50px;
+    font-weight:600;
+}
+.named h3{
+    font-size: 40px;
+    font-weight:600;
+    font-family: "kalam" , 'Times New Roman', Times, serif;
+}
+#about img {
+    border-radius: 50%;
+    /* width: 600px; */
+    width:80%;
+    margin-bottom: auto;
+    border:20px solid #00abae;
+    min-width:400px;
+    /* padding-bottom:auto; */
+}
+
+#about a{
+    font-size: 15px;
+    background-color: #00abae;
+    border:none;
+}
+
+
+
+#project {
+    margin: 10px 60px;
+    width:auto;
+    padding-top: auto;
+    /* border: 1px solid black; */
+}
+
+#project h2 {
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight:600;
+    padding-left:10px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.card {
+    border:none;
+    /* padding-top:100px;
+    padding-bottom: 100px; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    padding:auto;
+    
+}
+
+
+.row{
+    /* padding: 2%; */
+    width: 100%;
+    padding:auto;
+    /* border: 1px solid black; */
+}
+
+
+#project .card-title {
+    font-weight: bold;
+    font-size: 25px;
+    font-weight: 600;
+    color:gray;
+}
+ #project .card-body{
+    min-width: 100%;
+    max-height: 400px;
+    padding-bottom: auto;
+    /* border: 1px solid black; */
+ }
+
+
+small{
+    font-size: 10px;
+    color: grey;
+
+}
+span{
+    font-weight: bold;
+}
+    
+
+
+.btn{
+    background-color:#00abae;
+    border:none;
+}
+.col{
+    height:100%;
+    width:auto;
+    /* padding-left:10%; */
+
+    
+    
+}
+video{
+    height:300px;
+    border-radius: 12px;
+    overflow: hidden;
+
+    
+   
+}
+
+ 
+
+.imgcol{
+    /* border:1px solid red; */
+    /* align-items: right; */
+    padding:auto;
+    /* padding-top:5%; */
+    text-align: right;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ido{
+    
+    /* width:100%; */
+    height:100%;
+    /* border:1px solid grey; */
+    align-items: center;
+    /* margin-top: 60px;
+    margin-bottom: 60px; */
+    margin:60px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: justify;
+    
+}
+.ido .idohead {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 5em;
+
+}
+
+
+ .topics{
+    display:flex;
+      /* flex-direction:; */
+    /* flex-wrap:column wrap; */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    /* border: 1px solid rgb(156, 18, 18); *
+
+ }
+
+ .idohead{
+    /* padding-left: 40px; */
+    font-size: 40px;
+    font-weight: 600;
+    padding:2%;
+ }
+.myskills{   
+   
+    max-height: 100%;
+    display: block;
+    box-sizing: border-box;
+   
+
+    
+}
+.myskills h3{
+    font-size: 30px;
+    font-weight: 600;
+    color:	#696969;
+}
+/* .myskills p{
+    font-size: 10px;
+    color: grey;
+} */
+
+.myskills p{
+    padding-left:15px;
+    padding-top: 30px;
+    padding-right:15px;
+    padding-bottom: 15px;
+} 
+.myskills h3{
+    text-align: center;
+}
+
+.tools{
+    
+    
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    min-width: auto;
+    /* align-items: center; */
+    
+    margin: 60px auto;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top: 100px;
+    padding-bottom:100px;
+    
+}
+
+
+.toolshead{
+    padding-left: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.toolimg{
+    max-width: 100%;
+    min-width: 50%;
+    padding-left: 30px; 
+    padding-right: 30px;
+    padding-top: 50px;
+    margin: 60px auto;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+
+}
+.tools img{  
+    /* border: 1px solid black; */
+    width: 5%; 
+    max-width: 100%;
+    min-width: 100px;
+
+}
+
+
+
+
+#contact{
+    text-align: center;
+    margin:60px auto;
+    padding: 100px;
+     
+    /* border:2px solid grey; */
+}
+#contact h5{
+    font-weight:bolder;
+    font-size: 40px;
+}
+
+#contact p{
+    color:gray;
+    font-weight: lighter;
+    font-size: 20px;
+}
+ 
+footer{
+    text-align: center;
+    padding:100px;
+    margin:30px auto;
+    border-top:1px solid lightgray;
+}
+
+footer a{
+    color:black
+}
+
+.logo i{
+    font-size:25px;
+}
+footer h6{
+    color:grey;
+    font-size: 15px;
+}
+footer h6{
+    font-size: 20px;
+}
+
+ 
